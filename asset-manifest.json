@@ -1,14 +1,15 @@
 {
-  "main.css": "/todo-on-react/static/css/main.f661e62c.chunk.css",
-  "main.js": "/todo-on-react/static/js/main.1e7f150f.chunk.js",
-  "main.js.map": "/todo-on-react/static/js/main.1e7f150f.chunk.js.map",
-  "static/js/1.82a85ef7.chunk.js": "/todo-on-react/static/js/1.82a85ef7.chunk.js",
-  "static/js/1.82a85ef7.chunk.js.map": "/todo-on-react/static/js/1.82a85ef7.chunk.js.map",
+  "main.css": "/todo-on-react/static/css/main.97c26ecb.chunk.css",
+  "main.js": "/todo-on-react/static/js/main.98182061.chunk.js",
+  "main.js.map": "/todo-on-react/static/js/main.98182061.chunk.js.map",
+  "static/js/1.af5ffe82.chunk.js": "/todo-on-react/static/js/1.af5ffe82.chunk.js",
+  "static/js/1.af5ffe82.chunk.js.map": "/todo-on-react/static/js/1.af5ffe82.chunk.js.map",
   "runtime~main.js": "/todo-on-react/static/js/runtime~main.333478cf.js",
   "runtime~main.js.map": "/todo-on-react/static/js/runtime~main.333478cf.js.map",
   "static/media/Check.module.css": "/todo-on-react/static/media/check.7e11b613.svg",
-  "static/css/main.f661e62c.chunk.css.map": "/todo-on-react/static/css/main.f661e62c.chunk.css.map",
+  "static/media/RemoveItem.module.css": "/todo-on-react/static/media/trash.5f6b3e18.svg",
+  "static/css/main.97c26ecb.chunk.css.map": "/todo-on-react/static/css/main.97c26ecb.chunk.css.map",
   "index.html": "/todo-on-react/index.html",
-  "precache-manifest.900a314a51e7404b2cf75e17ea8487b0.js": "/todo-on-react/precache-manifest.900a314a51e7404b2cf75e17ea8487b0.js",
+  "precache-manifest.19f778f7f8d966f08792e5e3c6ea716f.js": "/todo-on-react/precache-manifest.19f778f7f8d966f08792e5e3c6ea716f.js",
   "service-worker.js": "/todo-on-react/service-worker.js"
 }
