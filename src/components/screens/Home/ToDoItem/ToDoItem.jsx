@@ -1,16 +1,24 @@
 import React from 'react';
 import style from './ToDoItem.module.css';
 import Check from './Check/Check';
+import ItemText from './ItemText/ItemText';
 
-const ToDoItem = ({ todo }) => {
+const ToDoItem = ({ todo, changeTodo }) => {
 	return (
-		<div className={style.toDoItem}>
+		<button
+			className={style.card}
+			onClick={() => changeTodo(todo._id)}
+		>
 
-			<Check isCompleted={todo.isCompleted} />
+			<div className={style.card__check}>
+				<Check isCompleted={todo.isCompleted} />
+			</div>
 
-			{todo.title}
+			<div className={style.card__text}>
+				<ItemText text={todo.text} isCompleted={todo.isCompleted} />
+			</div>
 
-		</div>
+		</button>
 	)
 };
 

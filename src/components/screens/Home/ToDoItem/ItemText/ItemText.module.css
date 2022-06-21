@@ -1,0 +1,30 @@
+/*? Item text */
+
+.text {
+	position: relative;
+}
+
+.text::after {
+	content: '';
+	display: block;
+	width: 0%;
+	height: 1px;
+
+	background-color: var(--color-gray-1);
+
+	position: absolute;
+	left: 0;
+	top: 52%;
+
+	transition: width .6s ease;
+}
+
+.text.active {}
+
+.text.done {
+	color: var(--color-gray-1);
+}
+
+.text.done::after {
+	width: 100%;
+}

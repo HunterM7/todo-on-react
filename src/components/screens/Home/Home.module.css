@@ -1,8 +1,18 @@
 /*? Home */
 
-.home {
+.home {}
+
+.container {
+	padding-top: 40px;
+}
+
+.home__title {
+	margin-bottom: 30px;
 }
 
 .home__list {}
 
-.home__item {}
+
+.home__item:not(:last-of-type) {
+	margin-bottom: 14px;
+}

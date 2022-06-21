@@ -1,3 +1,30 @@
 /*? ToDo Item */
 
-.toDoItem {}
+.card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	width: 100%;
+
+	padding: 16px;
+
+	cursor: pointer;
+
+	border-radius: 12px;
+	background-color: var(--color-secondary-1);
+}
+
+.card:hover {
+	background-color: var(--color-secondary-2);
+}
+
+.card:active {
+	background-color: var(--color-secondary-3);
+}
+
+.card__check {
+	margin-right: 8px;
+}
+
+.card__text {}
