@@ -1,0 +1,35 @@
+/*? Check */
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	border: 2px solid var(--color-pink);
+	border-radius: 6px;
+	
+	position: relative;
+}
+
+.mark {
+	display: block;
+	width: 14px;
+	height: 14px;
+
+	opacity: 0;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	background-color: var(--color-primary);
+	mask: url('/img/icons/check.svg') center / contain no-repeat;
+}
+
+.checkbox.active {
+	background-color: var(--color-pink);
+}
+
+.checkbox.active .mark {
+	opacity: 1;
+}
