@@ -1,7 +1,7 @@
 {
   "main.css": "/todo-on-react/static/css/main.b206b28d.chunk.css",
-  "main.js": "/todo-on-react/static/js/main.4bdd56d8.chunk.js",
-  "main.js.map": "/todo-on-react/static/js/main.4bdd56d8.chunk.js.map",
+  "main.js": "/todo-on-react/static/js/main.1b637960.chunk.js",
+  "main.js.map": "/todo-on-react/static/js/main.1b637960.chunk.js.map",
   "static/js/1.35f7ef40.chunk.js": "/todo-on-react/static/js/1.35f7ef40.chunk.js",
   "static/js/1.35f7ef40.chunk.js.map": "/todo-on-react/static/js/1.35f7ef40.chunk.js.map",
   "runtime~main.js": "/todo-on-react/static/js/runtime~main.333478cf.js",
@@ -10,6 +10,6 @@
   "static/media/RemoveItem.module.css": "/todo-on-react/static/media/trash.5f6b3e18.svg",
   "static/css/main.b206b28d.chunk.css.map": "/todo-on-react/static/css/main.b206b28d.chunk.css.map",
   "index.html": "/todo-on-react/index.html",
-  "precache-manifest.b96b6791d79030f330661d6e84987e4a.js": "/todo-on-react/precache-manifest.b96b6791d79030f330661d6e84987e4a.js",
+  "precache-manifest.751059d6012c20c5cc1d379982b773bb.js": "/todo-on-react/precache-manifest.751059d6012c20c5cc1d379982b773bb.js",
   "service-worker.js": "/todo-on-react/service-worker.js"
 }
