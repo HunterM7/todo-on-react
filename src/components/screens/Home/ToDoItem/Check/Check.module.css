@@ -22,8 +22,8 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 
-	background-color: var(--color-primary);
-	mask: url('/img/icons/check.svg') center / contain no-repeat;
+	background-color: var(--color-secondary-1);
+	mask: url('./check.svg') center / contain no-repeat;
 }
 
 .checkbox.active {

@@ -1,0 +1,18 @@
+/*? Remove Item */
+
+.btn {
+	display: block;
+	width: 20px;
+	height: 20px;
+
+	background-color: var(--color-gray-2);
+	mask: url('./trash.svg') center / 16px 18px no-repeat;
+}
+
+.btn:hover {
+	background-color: var(--color-red-1);
+}
+
+.btn:active {
+	background-color: var(--color-red-2);
+}

@@ -1,6 +1,10 @@
 /*? Item text */
 
 .text {
+	width: 100%;
+
+	text-align: left;
+
 	position: relative;
 }
 
@@ -16,7 +20,7 @@
 	left: 0;
 	top: 52%;
 
-	transition: width .6s ease;
+	transition: width .6s ease .2s;
 }
 
 .text.active {}

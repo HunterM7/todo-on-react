@@ -1,0 +1,56 @@
+/*? Create Field */
+
+.create {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	padding: 16px;
+
+	border-radius: 12px;
+	border: 2px solid var(--color-secondary-1);
+}
+
+.create__input {
+	width: 100%;
+}
+
+.create__input::placeholder {
+	color: var(--color-gray-2);
+}
+
+.create__btn {
+	width: 30px;
+	height: 30px;
+
+	position: relative;
+
+	flex-shrink: 0;
+
+	border-radius: 50%;
+	border: 2px solid var(--color-pink);
+	background-color: transparent;
+}
+
+.create__btn:hover {
+	background-color: var(--color-pink-op1);
+}
+
+.create__btn:active {
+	background-color: var(--color-pink-op2);
+}
+
+.btn__bg {
+	width: 60%;
+	height: 60%;
+
+	background-color: var(--color-pink);
+	mask: url('./check.svg') center / contain no-repeat;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

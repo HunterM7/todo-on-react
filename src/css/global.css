@@ -1,8 +1,6 @@
 /*? Global */
 
-*, *::before, *::after {
-	transition: all .4s ease;
-}
+
 
 h1 {
 	font-size: 28px;
@@ -15,6 +13,9 @@ body {
 	font-weight: 400;
 	color: var(--color-white);
 
+	min-height: 100%;
+	overflow: hidden;
+
 	background-color: var(--color-primary);
 }
 
@@ -24,3 +25,6 @@ body {
 	margin: 0 auto;
 }
 
+*, *::before, *::after {
+	transition: all .4s ease;
+}

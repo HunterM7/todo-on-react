@@ -13,6 +13,8 @@
 
 	border-radius: 12px;
 	background-color: var(--color-secondary-1);
+
+	-webkit-tap-highlight-color: transparent;
 }
 
 .card:hover {
@@ -27,4 +29,7 @@
 	margin-right: 8px;
 }
 
-.card__text {}
+.card__text {
+	/* flex-grow: 1; */
+	margin-right: auto;
+}
