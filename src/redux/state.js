@@ -1,7 +1,7 @@
 const todoBase = [
 	{
 		_id: 1,
-		text: 'Finish the essay collaboration',
+		text: 'Добавить localstorage',
 		isCompleted: false,
 	},
 	{
@@ -27,7 +27,7 @@ const todoBase = [
 	{
 		_id: 6,
 		text: 'Анимировать кнопку отправки',
-		isCompleted: false,
+		isCompleted: true,
 	},
 	{
 		_id: 7,
