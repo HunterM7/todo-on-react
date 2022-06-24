@@ -13,9 +13,7 @@ const ItemText = ({ isCompleted, text }) => {
 	const wrapperRef = React.useRef();
 
 	React.useEffect(() => {
-		let blockWidth = document.querySelector(`#${style.wrapper}`);
-		console.log(blockWidth.offsetWidth);
-		console.log(wrapperRef.current.offsetWidth);
+		window.addEventListener('resize', () => console.log(wrapperRef.current.offsetWidth));
 	}, [])
 
 
@@ -30,7 +28,6 @@ const ItemText = ({ isCompleted, text }) => {
 
 	return (
 		<div
-			id={style.wrapper}
 			className={style.wrapper}
 			ref={wrapperRef}
 		>
