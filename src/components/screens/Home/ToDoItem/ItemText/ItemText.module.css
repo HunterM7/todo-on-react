@@ -1,9 +1,15 @@
 /*? Item text */
 
-.text {
+.wrapper {
 	width: 100%;
+}
+
+.text {
+	display: inline-block;
+	/* width: 100%; */
 
 	text-align: left;
+	white-space: nowrap;
 
 	position: relative;
 }

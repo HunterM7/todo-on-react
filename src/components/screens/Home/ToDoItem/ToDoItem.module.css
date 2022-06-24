@@ -30,6 +30,7 @@
 }
 
 .card__text {
-	/* flex-grow: 1; */
-	margin-right: auto;
+	flex-grow: 1;
+	margin-right: 8px;
+	overflow: hidden;
 }

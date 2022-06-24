@@ -20,7 +20,7 @@
 }
 
 .home__wrapper {
-	/* height: 100%; */
+	overflow: hidden;
 
 	margin-bottom: 10px;
 	

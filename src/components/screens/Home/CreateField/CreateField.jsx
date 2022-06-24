@@ -8,15 +8,17 @@ const CreateField = ({ todo, setTodo }) => {
 
 	// Adding item
 	const addTodo = (text) => {
-		setTodo([
-			{
-				_id: `${todo.length + 1}`,
-				text,
-				isCompleted: false,
-			},
-			...todo,
-		]);
-		setText('')
+		if (text) {
+			setTodo([
+				{
+					_id: `${todo.length + 1}`,
+					text,
+					isCompleted: false,
+				},
+				...todo,
+			]);
+			setText('')
+		}
 	};
 
 	return (
@@ -24,6 +26,7 @@ const CreateField = ({ todo, setTodo }) => {
 			<input
 				type="text"
 				placeholder='Add a task'
+				maxLength='50'
 				className={style.create__input}
 				value={text}
 				onChange={e => setText(e.target.value)}

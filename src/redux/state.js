@@ -12,7 +12,7 @@ const todoBase = [
 	{
 		_id: 3,
 		text: 'Убрать возможность добавления пустой строки',
-		isCompleted: false,
+		isCompleted: true,
 	},
 	{
 		_id: 4,
@@ -33,6 +33,11 @@ const todoBase = [
 		_id: 7,
 		text: 'Создать градиент на границах контейнера с делами',
 		isCompleted: true,
+	},
+	{
+		_id: 8,
+		text: 'Тут очень большой текст, который ни за что не поместиться в одну строку.',
+		isCompleted: false,
 	},
 ]
 
